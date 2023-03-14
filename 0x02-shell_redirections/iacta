@@ -1,13 +1,1 @@
-#!/bin/bash
-filename="iacta"
-line_number=3
-current_line=1
-while read line
-do
-  if [$current_line -eq $line_number]
-  then
-    echo $line
-    break
-  fi
-  current_line=$((current_line+1))
-done < "$filename"
+Alea iacta est
